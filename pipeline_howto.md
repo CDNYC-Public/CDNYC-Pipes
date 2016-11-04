@@ -40,11 +40,13 @@ Click Multibranch Pipeline
 
 Enter the script:
 
+```
 node {
   git url: 'https://github.com/jglick/simple-maven-project-with-tests.git'
   def mvnHome = tool 'M3'
   sh "${mvnHome}/bin/mvn -B verify"
 }
+```
 
 Run the pipeline.
 
@@ -52,6 +54,7 @@ Now let’s record the output
 
 Instead of failing the build if there are test failures, you want Jenkins to record them — and then proceed. If you want it saved, you must capture the JAR that you built.
 
+```
 node {
   git url: 'https://github.com/jglick/simple-maven-project-with-tests.git'
   def mvnHome = tool 'M3'
@@ -59,6 +62,7 @@ node {
   step([$class: 'ArtifactArchiver', artifacts: '**/target/*.jar', fingerprint: true])
   step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*.xml'])
 }
+```
 
 Click build 5 times, to see the different outputs of the test.
 
