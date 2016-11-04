@@ -33,52 +33,53 @@ On this team, we'll create swarm clusters to support the infrastructure of the C
 ### Instance Information
 
 [SSH Key](https://www.dropbox.com/sh/wi8sl68zhg214i1/AAA_nhvKmCjLy0Y4EyM8ndNta?dl=0)
+Username: ubuntu
 
 Node01
+
 IP: ec2-54-152-225-79.compute-1.amazonaws.com
-Username: ubuntu
 
 Node02
+
 IP: ec2-54-224-99-86.compute-1.amazonaws.com
-Username: ubuntu
 
 Node03
+
 IP: ec2-54-242-147-173.compute-1.amazonaws.com
-Username: ubuntu
 
 Node04
+
 IP: ec2-54-227-24-85.compute-1.amazonaws.com
-Username: ubuntu
 
 Node05
+
 IP: ec2-54-197-156-250.compute-1.amazonaws.com
-Username: ubuntu
 
 Node06
+
 IP: ec2-54-242-182-130.compute-1.amazonaws.com
-Username: ubuntu
 
 Node07
+
 IP: ec2-54-237-229-68.compute-1.amazonaws.com
-Username: ubuntu
 
 Node08
+
 IP: ec2-54-175-251-19.compute-1.amazonaws.com
-Username: ubuntu
 
 Node09
+
 IP: ec2-54-211-125-132.compute-1.amazonaws.com
-Username: ubuntu
 
 Node10
+
 IP: ec2-54-88-1-77.compute-1.amazonaws.com
-Username: ubuntu
 
 Node11
+
 IP: ec2-54-164-50-102.compute-1.amazonaws.com
-Username: ubuntu
 
 Node12
+
 IP: ec2-54-174-113-180.compute-1.amazonaws.com
-Username: ubuntu
 
