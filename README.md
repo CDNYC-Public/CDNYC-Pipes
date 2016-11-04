@@ -1,12 +1,14 @@
 # CDNYC-Pipes
 
 
+## Phase 1: Continuous Integration and Deployment of a Software Artifact
+
 ### Class Flow
-Sign up for Github
-Join the Company (if you'd like push access)
-Divide into groups (Project Management, Front End, Back End, Documentation)
-Add your SSH keys
-Choose a product
+1. Sign up for Github
+1. Join the Company (if you'd like push access)
+1. Divide into groups (Project Management, Front End, Back End, Documentation)
+1. Add your SSH keys
+1. Choose a product
 
 ## SaaS-based Continuous Integration and Deployment
 
@@ -32,7 +34,7 @@ To this end, we'll create a blog with a static site generator called [Hugo](http
 
 #### Hosting the Blog
 
-[Hosting on Github)](https://gohugo.io/tutorials/github-pages-blog/)
+[Hosting on Github](https://gohugo.io/tutorials/github-pages-blog/)
 
 #### Deploying the Blog
 
