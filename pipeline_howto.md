@@ -1,26 +1,43 @@
 Go to Manage Jenkins, Global Tool Configuration
+
 Click on Add Maven and enter “M3” and click save.
 
 Create a New Item
+
 Click “New Item”
+
 Type “Hello World” as New item name
+
 Click Pipeline
+
 Click OK
+
 Under Pipeline, set the script to “Hello World”
 
 Create a New Item
+
 Type “MultiPipes” as the new item name
+
 Click Multibranch Pipeline
+
 Click OK
+
 Clone the source repository for multi-branch
+
   git clone  https://github.com/anonymuse/jenkins2-docker
+
 Click Add Source, and choose Git
+
 Add project repository as "https://github.com/anonymuse/jenkins2-docker”
+
 Click Save
 
 Create a New Item
+
 Type “MavenTest” as the new item name
+
 Click Multibranch Pipeline
+
 Enter the script:
 
 node {
