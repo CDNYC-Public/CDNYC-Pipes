@@ -36,7 +36,7 @@ Create a New Item
 
 Type “MavenTest” as the new item name
 
-Click Multibranch Pipeline
+Click Pipeline
 
 Enter the script:
 
