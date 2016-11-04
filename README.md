@@ -10,12 +10,12 @@
 
 ## Infrastructure Creation and Deployment
 
-On this team, we'll create swarm clusters to support the infrastructure of the Continuous Integration and Deployment pipeline. The business has a need for this MVP because of the POC proven in the `saas` branch of the repository, which has proven the value of Continuous Deployment with Software as a Service Tools.
+On this team, we'll create swarm clusters to support the infrastructure of the Continuous Integration and Deployment pipeline. The business has decided to move to production with a Docker-based Jenkins deployment, and your team has been tasked with creating the infrastructure. Due to the positive reception on first the SaaS-based POC, and then the local development environment of the MVP, we've decided to budget resources for a 12 node swarm cluster. 
 
 ### Acceptance Criteria
 
-1. Install Docker Swarm on the cluster
 1. Create a script that will automate the installation of Docker Swarm
+1. Install Docker Swarm on the cluster
 1. Set up Jenkins on the cluster
 1. Set up the pipeline from the local Jenkins MVP.
 1. Test and scale!
@@ -30,26 +30,55 @@ On this team, we'll create swarm clusters to support the infrastructure of the C
 
 [Blue / Green Deployments](https://technologyconversations.com/2015/12/08/blue-green-deployment-to-docker-swarm-with-jenkins-workflow-plugin/)
 
+### Instance Information
 
-Master01
-IP:
-SSH Key:
-Username: ubuntu
+[SSH Key](https://www.dropbox.com/sh/wi8sl68zhg214i1/AAA_nhvKmCjLy0Y4EyM8ndNta?dl=0)
 
 Node01
-IP:
-SSH Key:
+IP: ec2-54-152-225-79.compute-1.amazonaws.com
 Username: ubuntu
 
 Node02
-IP:
-SSH Key:
+IP: ec2-54-224-99-86.compute-1.amazonaws.com
 Username: ubuntu
 
 Node03
-IP:
-SSH Key:
+IP: ec2-54-242-147-173.compute-1.amazonaws.com
 Username: ubuntu
 
+Node04
+IP: ec2-54-227-24-85.compute-1.amazonaws.com
+Username: ubuntu
 
+Node05
+IP: ec2-54-197-156-250.compute-1.amazonaws.com
+Username: ubuntu
+
+Node06
+IP: ec2-54-242-182-130.compute-1.amazonaws.com
+Username: ubuntu
+
+Node07
+IP: ec2-54-237-229-68.compute-1.amazonaws.com
+Username: ubuntu
+
+Node08
+IP: ec2-54-175-251-19.compute-1.amazonaws.com
+Username: ubuntu
+
+Node09
+IP: ec2-54-211-125-132.compute-1.amazonaws.com
+Username: ubuntu
+
+Node10
+IP: ec2-54-88-1-77.compute-1.amazonaws.com
+Username: ubuntu
+
+Node11
+IP: ec2-54-164-50-102.compute-1.amazonaws.com
+Username: ubuntu
+
+Node12
+IP: ec2-54-174-113-180.compute-1.amazonaws.com
+Username: ubuntu
 
